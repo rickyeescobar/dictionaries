@@ -1,7 +1,7 @@
 # 1) print out the value for the key 'history' using the dictionary below
 
 
-sampleDict = { 
+sampleDict = {
    "class":{ 
       "student":{ 
          "name":"Mike",
@@ -13,14 +13,17 @@ sampleDict = {
    }
 }
 
+print (sampleDict ['class'] ['student'] ['marks']['history'])
 
 
 
 # 2) Add 2 inches to the son's height.
 
-dict={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
+dic={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
 
+dic["son's height"] +=2
 
+print (dic["son's height"])
 
 
 
